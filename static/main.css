@@ -1,0 +1,183 @@
+body.login_page{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#0000ff,#ffffff);
+}
+
+div.login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+div.login-box{
+    background: #ffffff;
+    padding: 80px 80px 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+div.user-icon{
+    background: #0080bf;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
+
+div.user-icon i{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+div.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.form-group input[type="text"].form-control{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 250px;
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+div.form-group input[type="password"].form-control{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 250px;
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+div.form-group input[type="submit"].form-control{
+    background: #4169e1;
+    color: white;
+    margin: 4px 2px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 250px;
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+div.form-group input[type="text"].form-control:hover ,div.form-group input[type="password"].form-control:hover{
+    border: 2px solid #55d0ff;
+}
+
+div.form-group input[type="text"].form-control:focus ,div.form-group input[type="password"].form-control:focus{
+    border: 2px solid #00acdf;
+}
+
+div.form-group input[type="text"].form-control:active ,div.form-group input[type="password"].form-control:active{
+    border: 2px solid #0080bf;
+}
+
+div.navbar{
+    margin-bottom: 50px;
+}
+div.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f2f98;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+div.navbar ul li{
+    float: left
+}
+
+div.navbar ul li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.bod {
+    background: linear-gradient(45deg,#090979,#1a84b8,#1aa4b8);
+    height: 100%; 
+    width: 100%;
+}
+
+div.bod h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+div.bod p{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.credits h1,h2,h3, h4,h5{
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
+
+div.credits div{
+    float:left;    
+    margin-left: 5px;
+}
+
+#records {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #records td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #records tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #records tr:nth-child(odd){background-color: #20B2AA;}
+  
+  #records tr:hover {background-color: #ddd;}
+  
+  #records th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4682B4;
+    color: white;
+  }
