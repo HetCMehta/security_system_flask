@@ -5,7 +5,9 @@
         <script src="https://kit.fontawesome.com/8364237378.js" crossorigin="anonymous"></script>
     </head>
     <body class="login_page">
-        <div class="msg">{{ msg }}</div>
+        {% if msg %}
+            <div class="msg">{{ msg }}</div>
+        {% endif %}
         <div class="login_container">
             <div class="login-box">
                 <div class = "user-icon">

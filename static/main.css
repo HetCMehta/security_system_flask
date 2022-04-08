@@ -181,3 +181,17 @@ div.credits div{
     background-color: #4682B4;
     color: white;
   }
+
+  .msg{
+    display: flex;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background: #1919bd;
+    margin-left: 41%;
+    width: 18%;
+    height: 10%;
+  }
