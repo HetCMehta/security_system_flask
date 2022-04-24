@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="bod">
+    <table id="records">
+        <tr>
+            <th>Time</th>
+            <th>Log</th>
+        </tr>
+        {% for rec in recs %}
+            <tr>
+                <td>{{rec['time']}}</td>
+                <td>{{rec['log']}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
